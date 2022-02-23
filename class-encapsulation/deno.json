@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "experimentalDecorators": true
+  },
+  "lint": {
+    "files": {
+      "include": [
+        "src/*"
+      ]
+    },
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "fmt": {
+    "files": {
+      "include": [
+        "src/*"
+      ]
+    },
+    "options": {
+      "singleQuote": true,
+      "semi": false
+    }
+  }
+}
